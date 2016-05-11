@@ -75,7 +75,7 @@ gulp.task( 'scripts', ['jshint'], function() {
     .pipe( uglify() )
     .pipe( rename( { suffix: '.min' } ) )
     .pipe( gulp.dest( './js/dist' ) )
-    .pipe( notify({ title: 'Sass', message: 'scripts task complete' }))
+    .pipe( notify({ title: 'Javascript', message: 'scripts task complete' }))
     //.pipe( livereload() );
 } );
  
@@ -130,7 +130,7 @@ gulp.task('images', function() {
   return gulp.src('./images/**/*')
     .pipe( imagemin({ progressive: true, svgoPlugins: [{removeViewBox: false}]}))
     .pipe( gulp.dest('./images'))
-    .pipe( notify({ title: 'Sass', message: 'images task complete' }));
+    .pipe( notify({ title: 'Images', message: 'images task complete' }));
 });
  
  
