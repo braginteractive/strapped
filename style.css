@@ -8166,6 +8166,17 @@ button.close {
   clear: both; }
 
 /*--------------------------------------------------------------
+# Post Navigation
+--------------------------------------------------------------*/
+.posts-navigation {
+  margin: 30px 0; }
+  .posts-navigation .nav-previous,
+  .posts-navigation .nav-next {
+    display: inline-block; }
+  .posts-navigation .nav-previous {
+    float: right; }
+
+/*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
 .widget {
@@ -8277,6 +8288,16 @@ button.close {
 
 .bypostauthor {
   display: block; }
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+footer {
+  background: #f8f8f8;
+  color: #777; }
+
+.site-info {
+  margin: 20px 0; }
 
 /*--------------------------------------------------------------
 # Media
